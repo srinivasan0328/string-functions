@@ -1,0 +1,75 @@
+button {
+  font-size: 1.6rem !important;
+  min-width: 10rem;
+  word-break: break-all;
+}
+body {
+  background: linear-gradient(45deg, #FFAFBD, #ffC3a0);
+  height: 100vh;
+  padding-top: 3rem;
+}
+h2 {
+  width: 16ch;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 3.5s steps(20, start) infinite alternate-reverse;
+  /* background: linear-gradient(90deg, #ff0000, #ff7300, #ffeb00); */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+input {
+  /* background-color: aqua !important; */
+  width: 75%;
+  margin: auto;
+}
+
+.buttonBody {
+  width: 75%;
+  margin: auto;
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+}
+
+#Output{
+  /* overflow-x: scroll; */
+  text-overflow: ellipsis;
+}
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+  input {
+    /* width: 100%; */
+    min-width: 22rem;
+  }
+  .buttonBody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 1rem;
+    padding: 0;
+    margin: auto;
+    overflow-wrap: anywhere;
+  }
+
+  body {
+    /* background: linear-gradient(45deg, #9dedce, #c7ff93); */
+    /* height: 100vh; */
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+
+  .buttonBlock {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    padding-right: 0;
+  }
+  #Output, #input{
+    width: 100%;
+  }
+}
