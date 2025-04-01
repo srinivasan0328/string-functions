@@ -4,7 +4,7 @@ button {
   word-break: break-all;
 }
 body {
-  background: linear-gradient(45deg, #FFAFBD, #ffC3a0);
+  background: linear-gradient(45deg, #ffC3a0, #FFAFBD );
   height: 100vh;
   padding-top: 3rem;
 }
@@ -38,10 +38,6 @@ input {
   }
 }
 
-#Output{
-  /* overflow-x: scroll; */
-  text-overflow: ellipsis;
-}
 
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
