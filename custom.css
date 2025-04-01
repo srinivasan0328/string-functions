@@ -28,6 +28,9 @@ input {
   width: 75%;
   margin: auto;
 }
+.clear{
+  font-weight: 500;
+}
 
 @keyframes typing {
   from {
@@ -54,6 +57,7 @@ input {
     padding: 0;
     margin: auto;
     overflow-wrap: anywhere;
+    width: 100%;
   }
 
   body {
